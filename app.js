@@ -5,7 +5,7 @@ const timeout = require('connect-timeout')
 const path = require('path')
 const cookieParser = require('cookie-parser')
 const bodyParser = require('body-parser')
-const AV = require('leanengine')
+// const AV = require('leanengine')
 
 // Loads cloud function definitions.
 // You can split them into several files, but don't forget to load them into the main file.
@@ -21,7 +21,7 @@ app.set('view engine', 'ejs')
 app.use(timeout('15s'))
 
 // Loads LeanEngine middleware.
-app.use(AV.express())
+// app.use(AV.express())
 
 app.enable('trust proxy')
 // Uncomment the following line to redirect all HTTP requests to HTTPS.

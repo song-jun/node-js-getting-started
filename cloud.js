@@ -1,4 +1,4 @@
-const AV = require('leanengine')
+// const AV = require('leanengine')
 const fs = require('fs')
 const path = require('path')
 
@@ -12,6 +12,6 @@ fs.readdirSync(path.join(__dirname, 'functions')).forEach( file => {
 /**
  * A simple cloud function.
  */
-AV.Cloud.define('hello', function(request) {
-  return 'Hello world!'
-})
+// AV.Cloud.define('hello', function(request) {
+//   return 'Hello world!'
+// })

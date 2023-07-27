@@ -1,14 +1,14 @@
 'use strict'
 
-const AV = require('leanengine')
+// const AV = require('leanengine')
 
-AV.init({
-  appId: "56o0sJnhaHVAknTJQu89GDb3-gzGzoHsz",
-  appKey: 'n05OwUJgpg7ve2rCdbdqe6VH',
-});
+// AV.init({
+//   appId: "56o0sJnhaHVAknTJQu89GDb3-gzGzoHsz",
+//   appKey: 'n05OwUJgpg7ve2rCdbdqe6VH',
+// });
 
 // Comment the following line if you do not want to use masterKey.
-AV.Cloud.useMasterKey()
+// AV.Cloud.useMasterKey()
 
 const app = require('./app')
 
